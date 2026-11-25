@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Consultorias | Way Group</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="assets/img/way-logo.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; min-height: 100vh; font-family: Inter, system-ui, sans-serif; background: #1B2D3F; color: #fff; display: grid; place-items: center; }
+    main { width: min(980px, 100% - 32px); padding: 56px 0; }
+    img { height: 46px; }
+    h1 { font-family: Montserrat, sans-serif; font-size: clamp(1.6rem, 3vw, 2.3rem); margin: 28px 0 8px; }
+    p { color: rgba(255,255,255,.72); margin: 0 0 32px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+    .card { display: block; text-decoration: none; color: inherit; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.14); border-radius: 18px; padding: 24px; transition: background .25s, border-color .25s, transform .25s; }
+    .card:hover { background: #C6970C; border-color: #C6970C; transform: translateY(-3px); }
+    .card span { display: block; font-size: .8rem; letter-spacing: .14em; text-transform: uppercase; color: rgba(255,255,255,.7); }
+    .card strong { display: block; font-family: Montserrat, sans-serif; font-size: 1.35rem; margin-top: 6px; }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="assets/img/way-logo-branco.svg" alt="Way Group">
+    <h1>Páginas das consultorias</h1>
+    <p>Escolha um serviço para abrir a landing page.</p>
+    <div class="grid">
+      <a class="card" href="gestao-comercial/"><span>Consultoria</span><strong>Comercial</strong></a>
+      <a class="card" href="gestao-de-pessoas/"><span>Consultoria</span><strong>de Pessoas</strong></a>
+      <a class="card" href="gestao-financeira/"><span>Consultoria</span><strong>Financeira</strong></a>
+      <a class="card" href="gestao-estrategica/"><span>Consultoria</span><strong>Estratégica</strong></a>
+      <a class="card" href="gestao-de-processos/"><span>Consultoria</span><strong>de Processos</strong></a>
+      <a class="card" href="gestao-de-operacoes-e-industrial/"><span>Consultoria</span><strong>de Operações</strong></a>
+    </div>
+  </main>
+</body>
+</html>
